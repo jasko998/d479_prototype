@@ -107,45 +107,13 @@ section {
 }
 
 .ent {
-    display: inline-flex;
+    margin-top: 50px;
+    display: flex;
     padding-left: 5%;
     padding-right: 5%;
     height: 500px;
+    justify-content: space-evenly;
 }
-
-
-
-#img3 {
-    border-radius: 12%;
-    padding-inline-start: 20px;
-}
-
-#img4 {
-    border-radius: 12%;
-}
-
-#img2 {
-    border-radius: 12%;
-}
-
-#img5 {
-    padding-inline-start: 20px;
-    border-radius: 12%;
-   
-}
-
-#img6 {
-    padding-inline-start: 10px;
-    border-radius: 12%;
-   
-}
-
-#img7 {
-    padding-inline-start: 20px;
-    border-radius: 12%;
-   
-}
-
 
 .welcomeEnt {
     height: 200px;
@@ -184,18 +152,20 @@ section {
 }
 
 .ssg {
-    display: inline-flex;
+    display: flex;
     padding-left: 5%;
     padding-right: 5%;
     height: 500px;
+    justify-content: space-evenly;
 }
 
 .ssg2 {
-    display: inline-flex;
+    display: flex;
     padding-top: 50px;
     padding-left: 5%;
     padding-right: 5%;
     height: 500px;
+    justify-content: space-evenly;
 }
 
 .ssgInfo {
@@ -218,23 +188,13 @@ section {
 
 
 .log {
+    margin-top: 50px;
     display: flex;
     padding-left: 5%;
     padding-right: 5%;
     height: 500px;
-    justify-content: space-between;
+    justify-content: space-evenly;
    
-}
-
-#img8 {
-    width: 50%;
-    border-radius: 12%;
-}
-
-.log p {
-    width: 50%;
-    font-size: 25px;
-    padding: 100px;
 }
 
 .log2 {
@@ -243,8 +203,45 @@ section {
     padding-left: 5%;
     padding-right: 5%;
     height: 500px;
-    justify-content: space-between;
+    justify-content: space-evenly;
    
+}
+
+#img3 {
+    border-radius: 12%;
+    width: 40%;
+}
+
+#img4 {
+    border-radius: 12%;
+    width: 40%;
+}
+
+#img2 {
+    border-radius: 12%;
+    width: 40%;
+}
+
+#img5 {
+    border-radius: 12%;
+    width: 40%;
+   
+}
+
+#img6 {
+    border-radius: 12%;
+    width: 40%;
+   
+}
+
+#img7 {
+    border-radius: 12%;
+    width: 40%;
+   
+}
+#img8 {
+    width: 50%;
+    border-radius: 12%;
 }
 
 #img9 {
@@ -276,7 +273,14 @@ section {
 .log2 p {
     width: 50%;
     font-size: 25px;
-    padding: 100px;
+    padding-left: 20px;
+    padding-top: 200px;
+}
+
+.log p {
+    width: 50%;
+    font-size: 25px;
+    padding-top: 200px;
 }
 
 
